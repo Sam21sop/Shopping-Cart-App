@@ -1,8 +1,5 @@
 # Shopping Cart App
 
-# Shopping Cart Web Application
-
-[![Build Status](https://travis-ci.org/your-username/shopping-cart.svg?branch=master)](https://travis-ci.org/your-username/shopping-cart)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
@@ -11,33 +8,36 @@
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [Testing](#testing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
 
 ## Project Description
-The Shopping Cart Web Application is a user-friendly e-commerce platform designed to provide customers with a seamless online shopping experience. This application allows users to browse products, add items to their cart, and complete the checkout process.
+The Shopping Cart is a modern e-commerce platform built with React.js and Tailwind CSS. This application provides users with an intuitive and responsive shopping experience, allowing them to browse cart, add items to their cart, remove from the cart, etc.
 
 ## Installation
-To install the Shopping Cart Web Application, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/shopping-cart.git`
-2. Navigate to the project directory: `cd shopping-cart`
-3. Install dependencies: `npm install`
-4. Configure your environment variables.
+To install the Shopping Cart, follow these steps:
+1. Clone the repository: 
+   ```bash
+     git clone https://github.com/Sam21sop/Shopping-Cart-App.git
+2. Navigate to the project directory:
+   ```bash
+   cd Shopping-Cart-App
+3. Install dependencies:
+   ```bash
+   npm install
 
 ## Usage
-To use the Shopping Cart Web Application, follow these steps:
-1. Start the application: `npm start`
-2. Open your web browser and navigate to `http://localhost:3000`
-3. Browse products, add items to your cart, and proceed to checkout.
+To use the React Tailwind Shopping Cart, follow these steps:
+1. Start the application:
+   ```bash
+   npm run dev
+3. Open your web browser and navigate to `http://localhost:<port>`
+4. Explore products, add items to your cart, and remove from the cart as well empty whole cart.
 
-![Shopping Cart Demo](demo.gif)
+![React Tailwind Shopping Cart Demo](demo.gif)
 
 ## Configuration
-The Shopping Cart Web Application requires the following environment variables:
-- `API_KEY`: Your API key for external services.
-- `DATABASE_URL`: URL for the application's database.
+The React Tailwind Shopping Cart does not require extensive configuration. Tailwind CSS styles are pre-configured for ease of use. Customize styles in the `src/styles` directory if needed.
 
 ## Contributing
 We welcome contributions from the community. To contribute to the project, follow these guidelines:
@@ -47,24 +47,14 @@ We welcome contributions from the community. To contribute to the project, follo
 4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
 
-Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
-
-## Testing
-To run tests, use the following command: `npm test`
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 We would like to thank the following:
-- [React](https://reactjs.org/) for the frontend library.
-- [Node.js](https://nodejs.org/) for the server-side runtime.
-- [Express](https://expressjs.com/) for the web framework.
-- [Travis CI](https://travis-ci.org/) for continuous integration.
+- [React.js](https://reactjs.org/) for the frontend library.
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework.
 
-## Contact Information
-For any inquiries or feedback, please contact us at:
-- Email: your.email@example.com
-- Twitter: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
 
-Feel free to [open an issue](https://github.com/your-username/shopping-cart/issues) if you encounter any problems or have suggestions for improvement.
+Feel free to [open an issue](https://github.com/Sam21sop/Shopping-Cart-App/issues) if you encounter any problems or have suggestions for improvement.
