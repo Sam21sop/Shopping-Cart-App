@@ -9,24 +9,26 @@ function CartModel() {
             {/* cart model  */}
             <div 
                 className="
-                    fixed
-                    bg-gray-600
+                    bg-blue-200
                     flex
                     flex-col
+                    justify-center
                     items-center
-                    text-white
+                    text-black
                     overflow-hidden
-                    z-100
+                    relative
+                    w-3/5
+                    m-4
                 "
             >
                 <div 
                     className="
-                        fixed
+                        absolute
                         bg-gray-500
                         cursor-pointer
                         text-xl
                         top-6
-                        right-8
+                        right-6
                         p-2
                         rounded-xl
                     "
@@ -36,12 +38,12 @@ function CartModel() {
 
                 <div 
                     className="
-                        fixed
+                        absolute
                         bg-red-500
                         cursor-pointer
                         text-xl
                         top-6
-                        left-8
+                        left-6
                         p-2
                         rounded-xl
                     "
@@ -69,12 +71,12 @@ function CartModel() {
                                             border-4
                                             border-solid
                                             m-4
+                                            bg-gray-500
                                             text-white
                                             flex
                                             justify-between
                                             item-center
                                             p-12
-                                            z-140
                                             pointer-events-auto
                                         "
                                         key={item.id}
@@ -103,8 +105,8 @@ function CartModel() {
                         border-solid
                     "
                 >
-                    <h1 className="text-5xl font-bold m-4">Total</h1>
-                    <h1 className="text-5xl font-bold m-4">{total}</h1>
+                    <h1 className="text-3xl font-bold m-4">Total</h1>
+                    <h1 className="text-3xl font-bold m-4">{total}</h1>
                 </div>
 
             </div>
