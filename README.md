@@ -31,10 +31,12 @@ To use the React Tailwind Shopping Cart, follow these steps:
 1. Start the application:
    ```bash
    npm run dev
-3. Open your web browser and navigate to `http://localhost:<port>`
+3. Open your web browser and navigate to `http://localhost:5173/`
 4. Explore products, add items to your cart, and remove from the cart as well empty whole cart.
 
-![React Tailwind Shopping Cart Demo](demo.gif)
+
+## Home Page
+![Shopping Cart Demo](./public/Home.JPG)
 
 ## Configuration
 The React Tailwind Shopping Cart does not require extensive configuration. Tailwind CSS styles are pre-configured for ease of use. Customize styles in the `src/styles` directory if needed.
